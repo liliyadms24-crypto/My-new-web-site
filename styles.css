@@ -1,0 +1,130 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(16, 67, 119);
+}
+
+header {
+    background-image: url(./header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    color:rgba(0, 247, 255, 0.671);
+    height: 625px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 300px;
+    margin: 0;
+    padding: 90px 60px 0 0;
+    display: inline-block;
+}
+header h2 {
+    font-size: 100px;
+    margin: 0;
+    padding: 100px 300px 0 0;
+    display: inline-block;
+}
+
+nav{
+    background-color: rgb(81, 134, 134);
+    width: 98.5%;
+    border-radius: 20px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a{
+    color: bisque;
+    text-decoration: none;
+    text-align: left;
+    padding:20px;
+    border-radius: 20px;
+    font-size: 30px;
+    }
+
+nav a:hover{
+    background-color: darkslategray;
+    transition: 0.3s;
+}
+
+.content{
+    display: inline-block;;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.content h3{
+    font-size: 50px;
+    background-color: darkslategray;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: bisque;
+    box-shadow: 0 0 30px rgb(0, 183, 255);
+}
+
+.content p{
+    background-color: rgba(97, 98, 112, 0.377);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    color:rgb(255, 228, 196);
+    text-align: left;
+    cursor: pointer;
+}
+
+.content img{
+    width: auto;
+    height: 300px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 30px rgb(0, 183, 255);
+    cursor: pointer;
+}
+
+.content img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 0 30px rgb(0, 183, 255);
+}
+
+.royxat{
+    background-color: rgba(97, 98, 112, 0.377);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 30px;
+    color:rgb(255, 228, 196);
+    text-align: left;
+    list-style: none;
+    cursor: pointer;
+}
+
+.royxat li{
+    margin: 10px 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+footer{
+    background-color: darkslategray;
+    color: bisque;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
